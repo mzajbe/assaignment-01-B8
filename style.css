@@ -133,7 +133,48 @@
 }
 
 
+/* hot deal section  */
+.hot-deal-section {
+    width: 1922px;
+    height: 620px;
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+}
+.hot-deal-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hot-deal-title{
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+    margin-top: 28px;
+}
 
+.hot-deal-img {
+    width: 318px;
+    height: 420px;
+    margin-left: 186px;
+}
 
 
 
@@ -175,4 +216,99 @@
     height: 396px;
     margin-left: 240px;
     gap: 24px;
+}
+
+
+
+
+
+
+/* subscribe section  */
+.subscribe-block {
+    width: 1440px;
+    height: 449px;
+    background-image: url("./assect/Rectangle\ 9.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 240px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+
+}
+
+.subscribe-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.subscribe-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 90px;
+}
+
+.text-feild {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+}
+
+/* footer  */
+
+.footer {
+    width: 1922px;
+    height: 449px;
+    background-color: #111010;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title {
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.span-text {
+    color: #E55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 32px;
 }
