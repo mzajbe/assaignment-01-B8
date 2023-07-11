@@ -2,6 +2,22 @@
     margin: 0px;
     padding: 0px;
 }
+/* extra section nav  */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #E55473;
+    color: white;
+    padding:10px ;
+
+}
+.menus{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    font-size: 17px;
+}
 
 /* header section  */
 .banner-section {
